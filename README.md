@@ -37,4 +37,4 @@ Feel free to modify the configuration according to your requirements.
 
 ## License
 
-This project is licensed under the ISC License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the ISC License. See the [LICENSE](https://opensource.org/license/isc-license-txt/) file for details.

@@ -1,0 +1,30 @@
+{
+  "name": "generatetranslations",
+  "version": "1.0.4",
+  "description": "Create loacal translation files for use with i18n Ally.",
+  "main": "generateTranslations.compiled.js",
+  "scripts": {
+    "generate-translations": "node generateTranslations.js",
+    "build": "babel generateTranslations.js --out-file generateTranslations.compiled.js"
+  },
+  "author": "David Dunnington",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "fs-extra": "^11.1.1",
+    "inquirer": "^9.2.7",
+    "path": "^0.12.7",
+    "readline-sync": "^1.4.10",
+    "yargs": "^17.7.2"
+  },
+  "bin": {
+    "generate-translations": "./generateTranslations.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.22.5",
+    "@babel/core": "^7.22.5",
+    "@babel/node": "^7.22.5",
+    "@babel/preset-env": "^7.22.5",
+    "esm": "^3.2.25"
+  }
+}

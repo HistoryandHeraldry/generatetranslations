@@ -1,8 +1,12 @@
 {
   "name": "generatetranslations",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "Create loacal translation files for use with i18n Ally.",
   "main": "generateTranslations.compiled.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HistoryandHeraldry/generatetranslations"
+  },
   "scripts": {
     "generate-translations": "node generateTranslations.js",
     "build": "babel generateTranslations.js --out-file generateTranslations.compiled.js"
